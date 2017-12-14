@@ -11,7 +11,7 @@
  * @author     Taufik Mulyana
  * @copyright  Copyright (c) 
  * @version    $Id$
- * @link       https://github.com/nothinux/whmcs-indonesia
+ * @link       https://github.com/nothinux/whmcs-indonesia 
  */
 
 if (!defined("WHMCS")) die("This file cannot be accessed directly");
