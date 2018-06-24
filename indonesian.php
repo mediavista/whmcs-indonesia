@@ -18,8 +18,11 @@
  * @version    $Id$
  * @link       http://www.whmcs.com/
  */
+
 if (!defined("WHMCS")) die("This file cannot be accessed directly");
+
 $_LANG['locale'] = "id_ID";
+
 $_LANG['accountinfo'] = "Informasi Akun";
 $_LANG['accountstats'] = "Statistik Akun";
 $_LANG['addfunds'] = "Tambah Saldo";
@@ -832,10 +835,13 @@ $_LANG['welcomeback'] = "Welcome Back";
 $_LANG['whoisresults'] = "WHOIS Results for";
 $_LANG['yes'] = "Yes";
 $_LANG['yourdetails'] = "Your Details";
+
 # Version 4.1
+
 $_LANG['clientareafiles'] = "Attached Files";
 $_LANG['clientareafilesdate'] = "Date Added";
 $_LANG['clientareafilesfilename'] = "Filename";
+
 $_LANG['pwreset'] = "Lost Password Reset";
 $_LANG['pwresetdesc'] = "Jika Anda lupa password Anda, Anda dapat mengatur ulang di sini. Ketika Anda mengisi alamat email terdaftar Anda (dan menjawab pertanyaan keamanan akun Anda jika diatur), Anda akan kami kirimi petunjuk tentang cara untuk mengatur ulang kata sandi Anda.";
 $_LANG['pwresetemailrequired'] = "Masukkan alamat email Anda";
@@ -848,24 +854,33 @@ $_LANG['pwresetvalidationcheckemail'] = "Proses pengaturan ulang kata sandi belu
 $_LANG['pwresetkeyinvalid'] = "The reset link you have followed is invalid. Please try again.";
 $_LANG['pwresetkeyexpired'] = "The reset link you have followed has expired. Please try again.";
 $_LANG['pwresetvalidationsuccess'] = "Pengaturan Ulang Kata Sandi Berhasil";
+
 $_LANG['overagescharges'] = "Overage Charge";
 $_LANG['overagestotaldiskusage'] = "Total Penggunaan Memori Disk";
 $_LANG['overagestotalbwusage'] = "Total Penggunaan Bandwidth";
+
 $_LANG['affiliatescommissionspending'] = "Commissions Pending Maturation";
 $_LANG['affiliatescommissionsavailable'] = "Available Commissions Balance";
 $_LANG['affiliatessignups'] = "Number of Signups";
 $_LANG['affiliatesconversionrate'] = "Conversion Rate";
+
 $_LANG['configoptionqtyminmax'] = "%s has a minimum requirement of %s and maximum of %s";
+
 $_LANG['creditcardnostore'] = "Tick this box if you do NOT want us to store your credit card details for recurring billing";
 $_LANG['creditcarddelete'] = "Delete Saved Card Details";
 $_LANG['creditcarddeleteconfirmation'] = "The stored credit card details have now been removed from your account";
 $_LANG['creditcardupdatenotpossible'] = "Credit Card Details cannot be updated at the current time. Please try again later.";
+
 $_LANG['invoicepaymentsuccessconfirmation'] = "Thank You! Your payment was successful.";
 $_LANG['invoicepaymentfailedconfirmation'] = "Unfortunately your payment attempt was not successful.<br />Please try again or contact support.";
+
 # Version 4.2
+
 $_LANG['promoappliedbutnodiscount'] = "The promotion code you entered has been applied to your cart but no items qualify for the discount yet - please check the promotion terms";
+
 $_LANG['upgradeerroroverdueinvoice'] = "You cannot currently upgrade or downgrade this product because an invoice has already been generated for the next renewal.<br /><br />To proceed, please first pay the outstanding invoice and then you will be able to upgrade or downgrade immediately following that and be charged the difference or credited as appropriate.";
 $_LANG['upgradeexistingupgradeinvoice'] = "You cannot currently upgrade or downgrade this product because an upgrade or downgrade is already in progress.<br /><br />To proceed, please first pay the outstanding invoice and then you will be able to upgrade or downgrade immediately following that and be charged the difference or credited as appropriate.<br/><br/>If you believe you are receiving this message in error, please submit a trouble ticket.";
+
 $_LANG['subaccountactivate'] = "Activate Sub-Account";
 $_LANG['subaccountactivatedesc'] = "Tick to configure as a sub-account with client area access";
 $_LANG['subaccountpermissions'] = "Sub-Account Permissions";
@@ -884,9 +899,12 @@ $_LANG['subaccountpermissiondenied'] = "You do not have the required permissions
 $_LANG['subaccountallowedperms'] = "Your allowed permissions are:";
 $_LANG['subaccountcontactmaster'] = "Contact the master account owner if you feel this to be an error.";
 $_LANG['subaccountSsoDenied'] = "You do not have permission to login using Single Sign-On.";
+
 $_LANG['knowledgebasealsoread'] = "Baca Juga";
+
 $_LANG['orderpaymenttermtriennially'] = "3 Tahun";
 $_LANG['orderpaymentterm36month'] = "Harga 36 Bulan";
+
 $_LANG['domainrenewals'] = "Domain Renewals";
 $_LANG['domaindaysuntilexpiry'] = "Days Until Expiry";
 $_LANG['domainrenewalsnoneavailable'] = "There are no domains eligible for renewal in your account";
@@ -894,18 +912,24 @@ $_LANG['domainrenewalspastgraceperiod'] = "Past Renewable Period";
 $_LANG['domainrenewalsingraceperiod'] = "Last Chance to Renew!";
 $_LANG['domainrenewalsdays'] = "Days";
 $_LANG['domainrenewalsdaysago'] = "Days Ago";
+
 $_LANG['invoicespartialpayments'] = "Partial Payments";
 $_LANG['invoicestotaldue'] = "Total Due";
+
 $_LANG['masspaytitle'] = "Mass Payment";
 $_LANG['masspaydescription'] = "Below is a summary of the selected invoices and the total due to pay all of them. To submit payment please just choose your desired payment method below and then submit.";
 $_LANG['masspayselected'] = "Pay Selected";
 $_LANG['masspayall'] = "Bayar Semua";
 $_LANG['masspaymakepayment'] = "Melakukan Pembayaran";
+
 # Version 4.3
+
 $_LANG['searchenterdomain'] = "Enter Domain to Find";
 $_LANG['searchfilter'] = "Filter";
+
 $_LANG['suspendreason'] = "Suspension Reason";
 $_LANG['suspendreasonoverdue'] = "Overdue on Payment";
+
 $_LANG['vpsnetmanagement'] = "VPS Management";
 $_LANG['vpsnetpowermanagement'] = "Power Management";
 $_LANG['poweron'] = "Power On";
@@ -931,47 +955,71 @@ $_LANG['vpsnetcloud'] = "Cloud";
 $_LANG['vpsnettemplate'] = "Template";
 $_LANG['vpsnetstatus'] = "System Status";
 $_LANG['vpsnetbwusage'] = "Bandwidth Usage";
+
 $_LANG['twitterlatesttweets'] = "Our Latest Tweets";
 $_LANG['twitterfollow'] = "Follow Us on Twitter";
 $_LANG['twitterfollowus'] = "Follow us";
 $_LANG['twitterfollowuswhy'] = "to stay up to date with our latest news &amp; offers";
+
 $_LANG['chatlivehelp'] = "Live Help";
+
 $_LANG['domainrelease'] = "Release Domain";
 $_LANG['domainreleasedescription'] = "Enter a new TAG here to move your domain name to another registrar";
 $_LANG['domainreleasetag'] = "New Registrar Tag";
+
 # Ajax Order Form
+
 $_LANG['orderformtitle'] = "Order Form";
+
 $_LANG['signup'] = "Mendaftar";
 $_LANG['loading'] = "Sedang Dimuat...";
+
 $_LANG['ordersummarybegin'] = "Silahkan pilih produk untuk memulai";
+
 $_LANG['cartchooseproduct'] = "Pilih Produk";
 $_LANG['cartconfigurationoptions'] = "Pilihan Konfigurasi";
+
 $_LANG['ordererrorsoccurred'] = "The following errors occurred and must be corrected before checkout:";
 $_LANG['ordererrortermsofservice'] = "Persyaratan Layanan harus setuju untuk";
 $_LANG['ordertostickconfirm'] = "Please tick to confirm you agree to the";
+
 $_LANG['cartnewcustomer'] = "Saya Pelanggan Baru";
 $_LANG['cartexistingcustomer'] = "Saya Sudah Terdaftar";
+
 $_LANG['cartpromo'] = "Promotion";
 $_LANG['cartenterpromo'] = "Masukan Kode Promosi";
 $_LANG['cartremovepromo'] = "Remove Promo";
+
 $_LANG['cartrecurringcharges'] = "Recurring Charges";
+
 $_LANG['cartenterdomain'] = "Please enter the domain you would like to use below.";
+
 $_LANG['cartdomainavailableoptions'] = "Congratulations, this domain is available!";
 $_LANG['cartdomainavailableregister'] = "Please register this domain for";
 $_LANG['cartdomainavailablemanual'] = "I will register it myself seperately";
+
 $_LANG['cartdomainunavailableoptions'] = "Sorry, this domain is already taken. If you are the owner, please choose an option below...";
 $_LANG['cartdomainunavailabletransfer'] = "Please transfer my domain for";
 $_LANG['cartdomainunavailablemanual'] = "I already own this domain and will update the nameservers";
+
 $_LANG['cartdomaininvalid'] = "The domain you entered is not valid. Enter only the part after the www. and include the TLD";
+
 # Version 4.4
+
 $_LANG['dlinvalidlink'] = "Invalid Link Followed. Please Contact Support";
+
 $_LANG['domaindnsmanagementlaunch'] = "Launch DNS Manager";
 $_LANG['domainemailforwardinglaunch'] = "Launch Mail Forwarding Manager";
+
 # Version 4.5
+
 $_LANG['domaindnspriority'] = "Priority";
 $_LANG['domaindnsmxonly'] = "Priority Record for MX Only";
+
 $_LANG['orderpromoprestart'] = "This promotion has not yet started. Please try again later.";
+
 $_LANG['ticketmerge'] = "MERGED";
+
 $_LANG['quote'] = "Quote";
 $_LANG['quotestitle'] = "My Quotes";
 $_LANG['quoteview'] = "Lihat";
@@ -1000,9 +1048,12 @@ $_LANG['quotestagedead'] = "Expired";
 $_LANG['quoteref'] = "Re Quote #";
 $_LANG['quotedeposit'] = "Deposit";
 $_LANG['quotefinalpayment'] = "Saldo Dari Deposit";
+
 $_LANG['invoiceoneoffpayment'] = "Make One Off Payment";
 $_LANG['invoicesubscriptionpayment'] = "Create Automated Recurring Subscription";
+
 $_LANG['invoicepaymentpendingreview'] = "Thank You! Your payment was successful and will be applied to your invoice as soon as 2CheckOut's Review Process has completed.<br /><br />This can take up to a few hours so your patience is appreciated.";
+
 $_LANG['step'] = "Langkah %s";
 $_LANG['cartdomainexists'] = "This domain already exists in our database so cannot be ordered again";
 $_LANG['cartcongratsdomainavailable'] = "Congratulations, %s is available!";
@@ -1033,57 +1084,82 @@ $_LANG['cartchooseanothercategory'] = "Pilih Kategori Lain";
 $_LANG['carttryanotherdomain'] = "Coba Domain Lain";
 $_LANG['cartmakedomainselection'] = "Please provide us with the domain you want to use with your hosting service by selecting an option from the selections below.";
 $_LANG['cartfraudcheck'] = "Fraud Check";
+
 $_LANG['newcustomer'] = "Member Baru";
 $_LANG['existingcustomer'] = "Member Sudah Terdaftar";
 $_LANG['newcustomersignup'] = "<strong>Belum Terdaftar?</strong> %sKlik Disini Untuk Mendaftar...%s";
+
 $_LANG['upgradeonselectedoptions'] = "(On Selected Options)";
 $_LANG['recurringpromodesc'] = "This promotion code also includes a %s Recurring Discount<br />(This discount will apply to future renewals of the product's total price)";
+
 # Version 4.5.2
+
 $_LANG['ajaxcartcheckout'] = "Jump straight to checkout &raquo;";
 $_LANG['ordersummarybegin'] = "Shopping Cart is Empty<br/>Please choose a product and domain name option to begin...";
 $_LANG['ajaxcartconfigreqnotice'] = "You're on the way to signing up with us, but you must choose a domain before you can add the selected product to your cart...";
+
 # Version 5.0.0
+
 $_LANG['cancelrequestdomain'] = "Cancel Domain Renewal?";
 $_LANG['cancelrequestdomaindesc'] = "You also have an active domain registration for the domain associated with this product<br />This domain is due to renew on %s at a cost of %s for %s Year/s<br /><br />If you would like to cancel the domain as well, and let it expire at the end of the current registration, then simply tick the box below.";
 $_LANG['cancelrequestdomainconfirm'] = "I confirm I do not want to renew this domain again";
+
 $_LANG['startingfrom'] = "Mulai Dari";
+
 $_LANG['orderpromopriceoverride'] = "Price Override";
 $_LANG['orderpromofreesetup'] = "Gratis Setup";
+
 $_LANG['thereisaproblem'] = "Oops, there's a problem...";
 $_LANG['problemgoback'] = "Kembali Dan Coba Lagi";
+
 $_LANG['quantity'] = "Jumlah";
 $_LANG['cartqtyenterquantity'] = "Ingin lebih dari 1 item ini? Masukkan Kuantitas sini:";
 $_LANG['cartqtyupdate'] = "Perbarui";
 $_LANG['invoiceqtyeach'] = "/setiap";
+
 $_LANG['nschoicedefault'] = "Gunakan nameserver bawaan";
 $_LANG['nschoicecustom'] = "Gunakan Kostum Nameserver (masukan disini)";
+
 $_LANG['jumpto'] = "Loncat Ke";
 $_LANG['top'] = "Atas";
+
 $_LANG['domaincontactusexisting'] = "Gunakan kontak yang ada";
 $_LANG['domaincontactusecustom'] = "Menentukan informasi khusus di bawah";
 $_LANG['domaincontactchoose'] = "Pilih kontak";
 $_LANG['domaincontactprimary'] = "Primary Profile Data";
+
 $_LANG['invoicepdfgenerated'] = "PDF Generated on";
+
 $_LANG['domainrenewalsbeforerenewlimit'] = "Minimum Advance Renewal is %s Days";
+
 $_LANG['promonewsignupsonly'] = "Kode promosi ini hanya berlaku untuk pelanggan baru";
+
 # Bulk Domain Management
+
 $_LANG['domainbulkmanagement'] = "Bulk Management Actions";
 $_LANG['domainbulkmanagementchangesaffect'] = "The changes made below will affect the following domains:";
 $_LANG['domainbulkmanagementchangeaffect'] = "This change will apply to the following domains:";
 $_LANG['domaincannotbemanaged'] = "cannot be managed automatically - please contact support regarding any changes you want to make";
 $_LANG['domainbulkmanagementnotpossible'] = "Unfortunately these settings cannot be edited from our client area at the current time. Please contact support regarding any changes you wanted to make.";
+
 $_LANG['domainmanagens'] = "Mengelola Nameserver";
+
 $_LANG['domainautorenewstatus'] = "Auto Renewal Status";
 $_LANG['domainautorenewinfo'] = "Auto renew helps protect your domain. When enabled, we will automatically send you a renewal invoice a few weeks before your domain expires, and  renew the domain should payment be successful.";
 $_LANG['domainautorenewrecommend'] = "We recommend keeping auto renew enabled to avoid losing your domain.";
+
 $_LANG['domainreglockstatus'] = "Registrar Lock Status";
 $_LANG['domainreglockinfo'] = "Registrar Lock (also known as Theft Protection) secures your Domain from unauthorized transfers.";
 $_LANG['domainreglockrecommend'] = "We recommend that you keep this enabled, except when transferring your Domain Name away.";
 $_LANG['domainreglockenable'] = "Enable Registrar Lock";
 $_LANG['domainreglockdisable'] = "Disable Registrar Lock";
+
 $_LANG['domaincontactinfoedit'] = "Edit Contact Information";
+
 $_LANG['domainmassrenew'] = "Renew Domains";
+
 # reCAPTCHA
+
 $_LANG['captchatitle'] = "Spam Bot Verification";
 $_LANG['captchaverify'] = "Masukkan karakter yang Anda lihat pada gambar di bawah ke dalam kotak teks yang disediakan. Hal ini diperlukan untuk mencegah pengiriman otomatis.";
 $_LANG['captchaverifyincorrect'] = "Karakter yang dimasukkan tidak cocok dengan gambar yang ditampilkan. Silakan coba lagi.";
@@ -1091,7 +1167,9 @@ $_LANG['googleRecaptchaIncorrect'] = "Lengkapi captcha dan coba lagi.";
 $_LANG['recaptcha-invalid-site-private-key'] = "An error occurred, please contact support (error code: cap1)";
 $_LANG['recaptcha-invalid-request-cookie'] = "An error occurred, please try again (error code: cap2)";
 $_LANG['recaptcha-incorrect-captcha-sol'] = "Karakter yang dimasukkan tidak sesuai dengan verifikasi kata. Silakan coba lagi.";
+
 # Product Bundles
+
 $_LANG['bundledeal'] = "Bundle Deal!";
 $_LANG['bundlevaliddateserror'] = "Bundle Unavailable";
 $_LANG['bundlevaliddateserrordesc'] = "This bundle is either not yet active or has expired. If you feel this message to be an error, please contact support.";
@@ -1109,7 +1187,9 @@ $_LANG['bundlewarningdomainreq'] = "The selected bundle requires you register or
 $_LANG['bundlewarningdomaintld'] = "The selected bundle requires you choose a domain with the extension(s) '%s' for domain %s to qualify";
 $_LANG['bundlewarningdomainregperiod'] = "The selected bundle requires you select the registration period '%s' for domain %s to qualify";
 $_LANG['bundlewarningdomainaddon'] = "The selected bundle requires you select the addon '%s' for domain %s to qualify";
+
 # New Client Area Template  Lines
+
 $_LANG['navservices'] = "Layanan";
 $_LANG['navservicesorder'] = "Order Layanan Baru";
 $_LANG['navservicesplaceorder'] = "Order Layanan Baru";
@@ -1125,6 +1205,7 @@ $_LANG['navtickets'] = "Tiket";
 $_LANG['navopenticket'] = "Buat Tiket";
 $_LANG['navmanagecc'] = "Manage Credit Card";
 $_LANG['navemailssent'] = "Riwayat Email";
+
 $_LANG['hello'] = "Halo";
 $_LANG['helloname'] = "Halo, %s!";
 $_LANG['account'] = "Akun";
@@ -1132,8 +1213,10 @@ $_LANG['login'] = "Login";
 $_LANG['register'] = "Daftar";
 $_LANG['forgotpw'] = "Lupa Kata Sandi?";
 $_LANG['editaccountdetails'] = "Edit Rincian Akun";
+
 $_LANG['clientareanavccdetails'] = "Credit Card Details";
 $_LANG['clientareanavcontacts'] = "Kontak/Sub-Akun";
+
 $_LANG['manageyouraccount'] = "Mengelola Akun Anda";
 $_LANG['accountoverview'] = "Akun Overview";
 $_LANG['paymentmethod'] = "Metode Pembayaran";
@@ -1149,10 +1232,12 @@ $_LANG['cancel'] = "Batal";
 $_LANG['clientareabacklink'] = "&laquo; Kembali";
 $_LANG['backtoserviceslist'] = "&laquo; Kembali ke Daftar Order";
 $_LANG['backtodomainslist'] = "&laquo; Kembali Ke Daftar Domain";
+
 $_LANG['clientareahomeorder'] = "Kunjungi Form Order untuk menelusuri Produk & Layanan yang kami tawarkan. Member yang ada juga dapat membeli produk tambahan sini.";
 $_LANG['clientareahomelogin'] = "Already registered with us? If so, click the button below to login to our client area from where you can manage your account.";
 $_LANG['clientareahomeorderbtn'] = "Go to Order Form";
 $_LANG['clientareahomeloginbtn'] = "Secure Client Login";
+
 $_LANG['clientareaproductsintro'] = "These are all the services you have registered in this account.";
 $_LANG['clientareaproductdetailsintro'] = "Here is an overview of your product/service with us.";
 $_LANG['clientareadomainsintro'] = "View &amp; manage all the domains you have registered with us from here...";
@@ -1164,6 +1249,7 @@ $_LANG['addfundsintro'] = "Deposit money in advance";
 $_LANG['registerintro'] = "Create an account with us . . .";
 $_LANG['masspayintro'] = "Pay all the invoices listed below in a single easy transaction by choosing a payment method";
 $_LANG['networkstatusintro'] = "Service Status Information and Network Announcements";
+
 $_LANG['creditcardyourinfo'] = "Informasi Billing";
 $_LANG['ourlatestnews'] = "Berita terbaru Kami";
 $_LANG['ccexpiringsoon'] = "Credit Card Expiring Soon";
@@ -1174,14 +1260,17 @@ $_LANG['youhaveoverdueinvoices'] = "Anda Mempunyai %s Faktur Terlambat(s)";
 $_LANG['overdueinvoicesdesc'] = "To avoid service interruption, please pay your outstanding invoices as soon as possible. %sPay Now &raquo;%s";
 $_LANG['supportticketsnoneopen'] = "There are currently no open support tickets";
 $_LANG['invoicesnoneunpaid'] = "There are currently no unpaid invoices";
+
 $_LANG['registerdisablednotice'] = "Untuk mendaftar mohon lakukan <strong><a href=\"cart.php\">Order Baru</a></strong>";
 $_LANG['registerCreateAccount'] = "Untuk membuat akun baru, mohon";
 $_LANG['registerCreateAccountOrder'] = "Order Layanan Baru Dengan Kami";
+
 $_LANG['pwstrength'] = "Kekuatan Kata Sandi";
 $_LANG['pwstrengthenter'] = "Masukan Kata Sandi";
 $_LANG['pwstrengthweak'] = "Lemah";
 $_LANG['pwstrengthmoderate'] = "Sedang";
 $_LANG['pwstrengthstrong'] = "Kuat";
+
 $_LANG['managing'] = "Managing";
 $_LANG['information'] = "Informasi";
 $_LANG['withselected'] = "Dengan Terpilih";
@@ -1191,6 +1280,7 @@ $_LANG['clientareadomainmanagedns'] = "Mengelola DNS";
 $_LANG['clientareadomainmanageemailfwds'] = "Mengelola Email Forwards";
 $_LANG['moduleactionsuccess'] = "Action Completed Successfully!";
 $_LANG['moduleactionfailed'] = "Action Failed";
+
 $_LANG['domaininfoexp'] = "To the right you can find the details of your domain. You can manage your domain using the tabs above.";
 $_LANG['domainrenewexp'] = "Enable auto renew to have us automatically send you a renewal invoice before your domain expires.";
 $_LANG['domainnsexp'] = "You can change where your domain points to here. Please be aware changes can take up to 24 hours to propagate.";
@@ -1198,41 +1288,55 @@ $_LANG['domainlockingexp'] = "Lock your domain to prevent it from being transfer
 $_LANG['domaincurrentlyunlocked'] = "Domain Currently Unlocked!";
 $_LANG['domaincurrentlyunlockedexp'] = "You should enable the registrar lock unless you are transferring the domain.";
 $_LANG['searchmultipletlds'] = "Search Multiple TLDs";
+
 $_LANG['networkstatustitle'] = "Network Status";
 $_LANG['networkstatusnone'] = "There are no %s Network Issues Currently";
 $_LANG['serverstatusheadingtext'] = "Below is a real-time overview of our servers where you can check if there's any known issues.";
+
 $_LANG['clientareacancelreasonrequired'] = "You must enter a cancellation reason";
+
 $_LANG['addfundsdescription'] = "Add funds to your account with us to avoid lots of small transactions and to automatically take care of any new invoices to generate.";
 $_LANG['addfundsnonrefundable'] = "* All deposits are non-refundable.";
+
 $_LANG['creditcardexpirydateinvalid'] = "The expiry date must be entered in the format MM/YY and must not be in the past";
+
 $_LANG['domaincheckerchoosedomain'] = "Pilih Domain...";
 $_LANG['domaincheckerchecknewdomain'] = "Cek Ketersediaan Domain Baru";
 $_LANG['domaincheckerdomainexample'] = " contoh. contoh.com";
 $_LANG['domaincheckerhostingonly'] = "Order Hosting Saja";
 $_LANG['domaincheckerenterdomain'] = "Start your web hosting experience with us by entering the domain name you want to register, transfer or simply purchase hosting for below...";
+
 $_LANG['kbquestionsearchere'] = "Punya pertanyaan? Mulai pencarian di sini.";
 $_LANG['contactus'] = "Hubungi Kami";
+
 $_LANG['opennewticket'] = "Buka Tiket Baru";
 $_LANG['searchtickets'] = "Enter Ticket # or Subject";
 $_LANG['supportticketspriority'] = "Prioritas";
 $_LANG['supportticketsubmitted'] = "Dikirim";
 $_LANG['supportticketscontact'] = "Kontak";
 $_LANG['supportticketsticketlastupdated'] = "Terahir Diperbarui";
+
 $_LANG['upgradedowngradepackage'] = "Upgrade/Downgrade";
 $_LANG['upgradedowngradechooseproduct'] = "Choose Product";
+
 $_LANG['jobtitlereqforcompany'] = "(Required if Organization Name is set)";
+
 $_LANG['downloadproductrequired'] = "Downloading this item requires you to have an active instance of the following product/service:";
+
 $_LANG['affiliatesignuptitle'] = "Get Paid for Referring Customers to Us";
 $_LANG['affiliatesignupintro'] = "Activate your affiliate account and start earning money today...";
 $_LANG['affiliatesignupinfo1'] = "We pay commissions for every signup that comes via your custom signup link.";
 $_LANG['affiliatesignupinfo2'] = "We track the visitors you refer to us using cookies, so users you refer don't have to purchase instantly for you to receive your commission.  Cookies last for up to 90 days following the initial visit.";
 $_LANG['affiliatesignupinfo3'] = "If you would like to find out more, please contact us.";
+
 # Version 5.1
+
 $_LANG['copyright'] = "Copyright";
 $_LANG['allrightsreserved'] = "All Rights Reserved";
 $_LANG['supportticketsclose'] = "Close";
 $_LANG['affiliatesinitialthen'] = "Initially then";
 $_LANG['invoicesoutstandingbalance'] = "Outstanding Balance";
+
 $_LANG['cpanellogin'] = "Login to cPanel";
 $_LANG['cpanelwhmlogin'] = "Login to WHM";
 $_LANG['cpanelwebmaillogin'] = "Login to Webmail";
@@ -1256,18 +1360,25 @@ $_LANG['enomtrustelogin'] = "Login to TrustE Control Panel";
 $_LANG['directadminlogin'] = "Login to DirectAdmin";
 $_LANG['centovacastlogin'] = "Login to Centova Cast";
 $_LANG['castcontrollogin'] = "Login to Control Panel";
+
 $_LANG['sslconfigurenow'] = "Configure Now";
 $_LANG['sslprovisioningdate'] = "SSL Provisioning Date";
 $_LANG['globalsignvoucherscode'] = "Your OneClickSSL Voucher Code";
 $_LANG['globalsignvouchersnotissued'] = "Not Yet Issued";
+
 $_LANG['domaintrffailreasonunavailable'] = "Failure Reason Unavailable";
+
 $_LANG['clientareaprojects'] = "My Projects";
+
 $_LANG['clientgroupdiscount'] = "Client Discount";
 $_LANG['billableitemshours'] = "Hours";
 $_LANG['billableitemshour'] = "Hour";
+
 $_LANG['invoicefilename'] = "Invoice-";
 $_LANG['quotefilename'] = "Quote-";
+
 # Domain Addons
+
 $_LANG['domainaddons'] = "Addons";
 $_LANG['domainaddonsinfo'] = "The following addons are available for your domain(s)...";
 $_LANG['domainaddonsdnsmanagement'] = "DNS Host Record Management";
@@ -1280,7 +1391,9 @@ $_LANG['domainaddonscancelareyousure'] = "Are you sure you want to disable & can
 $_LANG['domainaddonsconfirm'] = "Confirm Cancellation";
 $_LANG['domainaddonscancelsuccess'] = "Addon Deactivated Successfully!";
 $_LANG['domainaddonscancelfailed'] = "Failed to deactivate addon. Please contact support.";
+
 # Version 5.2
+
 $_LANG['yourclientareahostingaddons'] = "You have the following addons for this product.";
 $_LANG['loginrequired'] = "Login Required";
 $_LANG['unsubscribe'] = "Unsubscribe";
@@ -1296,8 +1409,11 @@ $_LANG['erroroccured'] = "An Error Occurred";
 $_LANG['pwresetsuccessdesc'] = "Your password has now been reset. %sClick here%s to continue to the client area...";
 $_LANG['pwresetenternewpw'] = "Please enter your desired new password below.";
 $_LANG['ordererrorsbudomainbanned'] = "The subdomain prefix you entered is not allowed - please try another";
+
 $_LANG['ticketfeedbacktitle'] = "Permintaan umpan balik untuk Tiket";
+
 $_LANG['nosupportdepartments'] = "No support departments found. Please try again later.";
+
 $_LANG['feedbackclosed'] = "Feedback cannot be provided until the ticket is closed";
 $_LANG['feedbackprovided'] = "You have already provided feedback for this ticket";
 $_LANG['feedbackthankyou'] = "We thank you for taking the time to provide your feedback.";
@@ -1316,7 +1432,9 @@ $_LANG['feedbackbest'] = "Best";
 $_LANG['feedbackimprove'] = "How may we make your experience better in the future?";
 $_LANG['pleaserate2'] = "handled this support request";
 $_LANG['feedbacksupplyrating'] = "Please supply at least a rating for :staffname (comments are optional)";
+
 $_LANG['returnclient'] = "Return to Client Area";
+
 $_LANG['clientareanavsecurity'] = "Security Settings";
 $_LANG['twofactorauth'] = "Two-Factor Authentication";
 $_LANG['twofaenable'] = "Enable Two-Factor Authentication";
@@ -1344,14 +1462,18 @@ $_LANG['twofabackupcodereset'] = "Login via Backup Code Successful<br />Backup C
 $_LANG['twofacantaccess2ndfactor'] = "Can't Access Your 2nd Factor Device?";
 $_LANG['twofaloginusingbackupcode'] = "Login using Backup Code";
 $_LANG['twofageneralerror'] = "An error occurred loading the module. Please try again.";
+
 $_LANG['continue'] = "Continue";
 $_LANG['disable'] = "Disable";
 $_LANG['manage'] = "Manage";
+
 # Version 5.3
 $_LANG['quoteacceptancetitle'] = "Quote Acceptance";
 $_LANG['quoteacceptancehowto'] = "To accept the quote, please confirm your acceptance of our terms of service which can be viewed @";
 $_LANG['quoteacceptancewarning'] = "Please be aware that accepting a quote is considered entering into a contract and you will not be able to cancel once accepted.";
+
 $_LANG['contactform'] = "Contact Form";
+
 $_LANG['twoipverificationstep'] = "Verification Step";
 $_LANG['twoipverificationstepmsg'] = "Enter the security code generated by your mobile authenticator app and we'll make sure it's configured correctly before enabling it.";
 $_LANG['twoipverificationerror'] = "It seem's there's a problem...";
@@ -1362,6 +1484,7 @@ $_LANG['twoipconfigureapp'] = "To configure your authenticator app:";
 $_LANG['twoipconfigurestep1'] = "Begin by selecting to add a new time based token";
 $_LANG['twoipconfigurestep2'] = "Then use your app to scan the barcode below, or alternatively enter this secret key manually: ";
 $_LANG['twoipgdmissing'] = "GD is missing from the PHP build on your server so unable to generate image";
+
 $_LANG['domaincontactdetails']['First Name'] = "Nama Depan";
 $_LANG['domaincontactdetails']['Last Name'] = "Nama Belakang";
 $_LANG['domaincontactdetails']['Full Name'] = "Nama Lengkap";
@@ -1387,10 +1510,13 @@ $_LANG['domaincontactdetails']['Country'] = "Negara";
 $_LANG['domaincontactdetails']['Phone'] = "Telepone";
 $_LANG['domaincontactdetails']['Phone Number'] = "Nomor Telepone";
 $_LANG['domaincontactdetails']['Fax'] = "Fax";
+
 $_LANG['serverhostnameexample'] = "eg. server1(.example.com)";
 $_LANG['serverns1prefixexample'] = "eg. ns1(.example.com)";
 $_LANG['serverns2prefixexample'] = "eg. ns2(.example.com)";
+
 $_LANG['hosting'] = "Hosting";
+
 $_LANG['enomfrregistration']['Heading'] = ".fr domains have different required values depending on your nationality and type of registration:";
 $_LANG['enomfrregistration']['French Individuals']['Name'] = "French Individuals";
 $_LANG['enomfrregistration']['French Individuals']['Requirements'] = "Please provide your \"Birthdate\", \"Birthplace City\", and \"Birthplace Postcode\".";
@@ -1401,13 +1527,18 @@ $_LANG['enomfrregistration']['French Companies']['Requirements'] = "Please provi
 $_LANG['enomfrregistration']['EU Non-French Companies']['Name'] = "EU Non-French Companies";
 $_LANG['enomfrregistration']['EU Non-French Companies']['Requirements'] = "Please provide the company \"DUNS Number\", and the \"Birthdate\" of the Owner Contact.";
 $_LANG['enomfrregistration']['Non-EU Warning'] = "Client contact information must be within the EU or else registration will fail.";
+
 $_LANG['confirm'] = "Confirm";
+
 $_LANG['maxmind_checkconfiguration'] = "An error occurred with the Fraud Check. Please contact support.";
 $_LANG['maxmind_addressinvalid'] = "Your address is not recognised. Please check and re-enter.";
 $_LANG['maxmind_invalidip'] = "IP Address invalid or a local address. Please contact support.";
+
 $_LANG['ssounabletologin'] = "Unable to auto-login. Please contact support.";
 $_LANG['ssofatalerror'] = "A fatal error occurred. Please contact support.";
+
 # Version 6.0
+
 $_LANG['announcementschoosemonth'] = "Pilih Bulan";
 $_LANG['announcementsbymonth'] = "Dari Bulan";
 $_LANG['announcementsolder'] = "Pengumuman Lama";
@@ -1419,6 +1550,7 @@ $_LANG['affiliatesclicks'] = "Klik";
 $_LANG['contacts'] = "Kontak";
 $_LANG['backtoservicedetails'] = "Kembali Ke Rincian Layanan";
 $_LANG['invoicesintro'] = "Riwayat faktur dengan kami";
+
 $_LANG['sidebars']['viewAccount']['yourAccount'] = "Akun Anda";
 $_LANG['sidebars']['viewAccount']['myDetails'] = "Rincian Saya";
 $_LANG['sidebars']['viewAccount']['billingInformation'] = "Informasi Billing";
@@ -1426,29 +1558,38 @@ $_LANG['sidebars']['viewAccount']['contacts/subAccounts'] = "Kontak/Sub-Akun";
 $_LANG['sidebars']['viewAccount']['changePassword'] = "Ubah Kata Sandi";
 $_LANG['sidebars']['viewAccount']['securitySettings'] = "Pengaturan Keamanan";
 $_LANG['sidebars']['viewAccount']['emailHistory'] = "Email History";
+
 $_LANG['aboutsecurityquestions'] = "Mengapa pertanyaan keamanan?";
 $_LANG['registersecurityquestionblurb'] = "Mengatur pertanyaan keamanan akan memberikan keamanan ekstra, karena semua perubahan pada akun Anda memerlukan memberikan informasi tambahan dari pertanyaan Anda.";
+
 $_LANG['update'] = "Perbarui";
 $_LANG['yourinfo'] = "Informasi Anda";
 $_LANG['shortcuts'] = "Shortcuts";
+
 $_LANG['yourservices'] = "Layanan Anda";
 $_LANG['yourdomains'] = "Domain Anda";
 $_LANG['yourtickets'] = "Tiket Anda";
 $_LANG['managecontacts'] = "Mengelola Kontak";
 $_LANG['billingdetails'] = "Rincian Billing";
 $_LANG['homechooseproductservice'] = "Pilih produk/layanan untuk di kelola:";
+
 $_LANG['invoicesdue'] = "Invoices Due";
 $_LANG['invoicesduemsg'] = "Anda mempunyai %s invoice(s) saat ini belum dibayar dengan total saldo %s";
 $_LANG['noinvoicesduemsg'] = "Anda tidak memiliki tagihan yang belum dibayar pada saat ini.";
+
 $_LANG['expiringsoon'] = "Akan Berakhir Segera";
+
 $_LANG['notice'] = "Pemberitahuan";
 $_LANG['networkstatussubtitle'] = "Berita & Informasi";
+
 $_LANG['myaccount'] = "Akun Saya";
+
 $_LANG['manageproduct'] = "Mengelola Produk";
 $_LANG['overview'] = "Overview";
 $_LANG['servername'] = "Server Name";
 $_LANG['visitwebsite'] = "Kunjungi Website";
 $_LANG['whoisinfo'] = "WHOIS Info";
+
 $_LANG['tableshowing'] = "Showing _START_ to _END_ of _TOTAL_ entries";
 $_LANG['tableempty'] = "Showing 0 to 0 of 0 entries";
 $_LANG['tablefiltered'] = "(filtered from _MAX_ total entries)";
@@ -1461,19 +1602,30 @@ $_LANG['tablepagesnext'] = "Next";
 $_LANG['tablepagesprevious'] = "Previous";
 $_LANG['tableviewall'] = "All";
 $_LANG['tableentersearchterm'] = "Enter search term...";
+
 $_LANG['actions'] = "Actions";
+
 $_LANG['upgradedowngradeshort'] = "Up/Downgrade";
+
 $_LANG['masspayintro'] = "Pay all these invoices in one step";
 $_LANG['masspaymentselectgateway'] = "Select Mass Payment Gateway";
+
 $_LANG['ticketfeedbackrequest'] = "Feedback Request";
 $_LANG['ticketfeedbackforticket'] = "for Ticket #";
+
 $_LANG['notifications'] = "Notifications";
 $_LANG['notificationsnone'] = "You have no notifications at this time.";
+
 $_LANG['creditcardnonestored'] = "No card on file";
+
 $_LANG['kbviewingarticlestagged'] = "Viewing articles tagged";
+
 $_LANG['domainprivatenameservers'] = "Private Nameservers";
+
 $_LANG['transferinadomain'] = "Transfer in a Domain";
+
 $_LANG['nodomainextensions'] = "There are no Domain Extensions currently configured for purchase";
+
 $_LANG['homebegin'] = "Begin the search for your perfect domain name...";
 $_LANG['howcanwehelp'] = "How can we help today?";
 $_LANG['exampledomain'] = "eg. example.com";
@@ -1481,17 +1633,23 @@ $_LANG['buyadomain'] = "Buy A Domain";
 $_LANG['orderhosting'] = "Order Service";
 $_LANG['makepayment'] = "Make Payment";
 $_LANG['getsupport'] = "Get Support";
+
 $_LANG['news'] = "News";
 $_LANG['allthelatest'] = "All the latest from";
 $_LANG['readmore'] = "Read More";
 $_LANG['noannouncements'] = "No announcements to display";
+
 $_LANG['kbsearchexplain'] = "Have a question? Start your search here.";
 $_LANG['readyforquestions'] = "We're ready and waiting for your questions";
+
 $_LANG['restrictedpage'] = "This page is restricted";
 $_LANG['enteremail'] = "Enter email";
+
 $_LANG['passwordtips'] = "<strong>Tips for a good password</strong><br />Use both upper and lowercase characters<br />Include at least one symbol (# $ ! % &amp; etc...)<br />Don't use dictionary words";
+
 $_LANG['regdate'] = "Reg Date";
 $_LANG['nextdue'] = "Next Due";
+
 $_LANG['findyourdomain'] = "Find your new domain name";
 $_LANG['searchtermrequired'] = "You must enter a domain name or keyword to look for";
 $_LANG['unabletolookup'] = "Sorry, unable to lookup the term as provided";
@@ -1507,24 +1665,34 @@ $_LANG['domainssuggestionswarnings'] = "Domain name suggestions may not always b
 $_LANG['disclaimers'] = "Disclaimers";
 $_LANG['tldpricing'] = "TLD Pricing";
 $_LANG['alltldpricing'] = "All TLD Pricing";
+
 $_LANG['quotesdesc'] = "Quotes we have generated for you";
 $_LANG['quotesrejected'] = "Rejected";
+
 $_LANG['ticketsyourhistory'] = "Your ticket history";
+
 $_LANG['clientareaemaildesc'] = "Your email history with us";
+
 $_LANG['sslconfssl'] = "Configure SSL";
 $_LANG['sslnoconfigurationpossible'] = "Configuration has already been completed!  Please contact support if you are experiencing issues.";
+
 $_LANG['adminloggedin'] = "You are currently logged in as an admin.";
 $_LANG['returntoadminarea'] = "Return to Admin Area";
 $_LANG['adminmasqueradingasclient'] = "You are currently masquerading as a client.";
 $_LANG['logoutandreturntoadminarea'] = "Logout & return to Admin Area";
+
 $_LANG['supportAndUpdatesExpired'] = "Support & Updates are expired.";
 $_LANG['supportAndUpdatesExpiredLicense'] = "Your Support & Updates period for this license has expired";
 $_LANG['supportAndUpdatesRenewalRequired'] = "Support & Updates access needs to be renewed before you can access this download.";
 $_LANG['supportAndUpdatesClickHereToRenew'] = "Click Here to Renew";
+
 $_LANG['pwresetemailneeded'] = "Forgotten your password? Enter your email address below to begin the reset process.";
+
 $_LANG['quotestageexpired'] = "Expired";
+
 $_LANG['ticketinfo'] = "Ticket Information";
 $_LANG['customfield'] = "Custom Fields";
+
 $_LANG['domainsActive'] = "Active";
 $_LANG['domainsExpired'] = "Expired";
 $_LANG['domainsCancelled'] = "Cancelled";
@@ -1536,10 +1704,14 @@ $_LANG['domainsExpiringInTheNext30Days'] = "Expiring within 30 Days";
 $_LANG['domainsExpiringInTheNext90Days'] = "Expiring within 90 Days";
 $_LANG['domainsExpiringInTheNext180Days'] = "Expiring within 180 Days";
 $_LANG['domainsExpiringInMoreThan180Days'] = "Expiring in 180+ Days";
+
 $_LANG['kbtagcloud'] = "Tag Cloud";
+
 $_LANG['cancellationrequestedexplanation'] = "There is an outstanding cancellation request for this product/service";
 $_LANG['cancellationrequested'] = "Cancellation Requested";
+
 $_LANG['yourrecenttickets'] = "Your Recent Tickets";
+
 $_LANG['domains']['deTermsDescription1'] = "To register a new domain, transfer or change registrant information the registrant must explicitly accept the .DE terms and conditions.";
 $_LANG['domains']['deTermsDescription2'] = "(See full text of .de terms and conditions: http://www.denic.de/en/bedingungen.html.)";
 $_LANG['directDebitPageTitle'] = "Direct Debit Payment";
@@ -1560,23 +1732,31 @@ $_LANG['directDebitConfirmAccNumber'] = "Confirm Account Number";
 $_LANG['directDebitSubmit'] = "Submit";
 $_LANG['directDebitChecking'] = "Checking";
 $_LANG['directDebitSavings'] = "Savings";
+
 $_LANG['outOfStockProductRemoved'] = "An out of stock product was automatically removed from the cart";
+
 $_LANG['subaccountpermsquotes'] = "View & Accept Quotes";
+
 $_LANG['chooselanguage'] = "Choose language";
+
 $_LANG['success'] = "Success";
 $_LANG['error'] = "Error";
 $_LANG['print'] = "Print";
 $_LANG['invoicelineitems'] = "Invoice Items";
+
 $_LANG['quotelineitems'] = "Quote Items";
+
 $_LANG['quoteproposal'] = "Proposal";
 $_LANG['quoteacceptagreetos'] = "To accept the quote, please confirm your acceptance of our terms of service.";
 $_LANG['quoteacceptcontractwarning'] = "Please be aware that accepting a quote is considered entering into a contract and you will not be able to cancel once accepted.";
+
 // Client alerts
 $_LANG['clientAlerts']['creditCardExpiring'] = "Your credit card :creditCardType-:creditCardLastFourDigits expires within :days days. Please update it at your earliest convenience.";
 $_LANG['clientAlerts']['domainsExpiringSoon'] = "You have :numberOfDomains domain(s) expiring within the next :days days.";
 $_LANG['clientAlerts']['invoicesUnpaid'] = "You have :numberOfInvoices unpaid invoice(s). Pay them early for peace of mind.";
 $_LANG['clientAlerts']['invoicesOverdue'] = "You have :numberOfInvoices overdue invoice(s) with a total balance due of :balanceDue. Pay them now to avoid any interruptions in service.";
 $_LANG['clientAlerts']['creditBalance'] = "You have a credit balance of :creditBalance.";
+
 // Client homepage panels
 $_LANG['clientHomePanels']['unpaidInvoices'] = "Unpaid Invoices";
 $_LANG['clientHomePanels']['unpaidInvoicesMsg'] = "You have :numberOfInvoices unpaid invoice(s) with a total balance due of :balanceDue. Pay them early for peace of mind.";
@@ -1592,7 +1772,9 @@ $_LANG['clientHomePanels']['recentSupportTickets'] = "Recent Support Tickets";
 $_LANG['clientHomePanels']['recentSupportTicketsNone'] = "No Recent Tickets Found. If you need any help, please <a href=\"submitticket.php\">open a ticket</a>.";
 $_LANG['clientHomePanels']['affiliateSummary'] = "Your current commission balance is :commissionBalance. You only need another :amountUntilWithdrawalLevel before you can withdraw your earnings.";
 $_LANG['clientHomePanels']['affiliateSummaryWithdrawalReady'] = "Your current commission balance is :commissionBalance. You may withdraw your earnings now.";
+
 $_LANG['upgradeNotPossible'] = "Upgrading this product is not possible.  If you believe you've reached this page in error, please notify our support department.  Otherwise, go back and double check your selection.";
+
 $_LANG['hostingInfo'] = "Hosting Information";
 $_LANG['additionalInfo'] = "Additional Information";
 $_LANG['resourceUsage'] = "Resource Usage";
@@ -1602,23 +1784,31 @@ $_LANG['diskSpace'] = "Disk Space";
 $_LANG['bandwidth'] = "Bandwidth";
 $_LANG['registered'] = "Registered";
 $_LANG['upgrade'] = "Upgrade";
+
 $_LANG['downdoadsdesc'] = "Manuals, programs, and other files";
+
 $_LANG['doToday'] = "What would you like to do today?";
 $_LANG['changeDomainNS'] = "Change the nameservers your domain points to";
 $_LANG['updateWhoisContact'] = "Update the WHOIS contact information for your domain";
 $_LANG['changeRegLock'] = "Change the registrar lock status for your domain";
 $_LANG['renewYourDomain'] = "Renew Your Domain";
+
 $_LANG['oops'] = "Oops";
 $_LANG['goback'] = "Go Back";
 $_LANG['returnhome'] = "Return Home";
 $_LANG['blankCustomField'] = "(no value)";
+
 $_LANG['viewAll'] = "View All";
 $_LANG['moreDetails'] = "More Details";
+
 $_LANG['clientHomeSearchKb'] = "Enter a question here to search our knowledgebase for answers...";
+
 $_LANG['whoisContactWarning'] = "It is important to keep your domain WHOIS contact information up-to-date at all times to avoid losing control of your domain.";
+
 $_LANG['paymentstodate'] = "Payments to Date";
 $_LANG['balancedue'] = "Balance Due";
 $_LANG['submitpayment'] = "Submit Payment";
+
 $_LANG['domaincheckeravailable'] = "Available";
 $_LANG['domaincheckertransferable'] = "Available to Transfer";
 $_LANG['domaincheckertaken'] = "Taken";
@@ -1627,15 +1817,20 @@ $_LANG['domaincheckeradded'] = "Added";
 $_LANG['domaincheckernomoresuggestions'] = "That's all the results we have for you! If you still haven't found what you're looking for, please try a different search term or keyword.";
 $_LANG['domaincheckerunabletooffertld'] = "Unfortunately we are unable to register this TLD at this time";
 $_LANG['domaincheckerbulkplaceholder'] = "Enter up to 20 domain names.\nEach name must be on a separate line.\n\nExamples:\nexample.com\nexample.net";
+
 $_LANG['domainchecker']['suggestiontakentitle'] = "Domain Unavailable";
 $_LANG['domainchecker']['suggestiontakenmsg'] = "Unfortunately the domain you selected is unavailable. This can sometimes occur if the domain has been registered recently. Please go back and choose another domain.";
 $_LANG['domainchecker']['suggestiontakenchooseanother'] = "Choose another domain";
+
 $_LANG['domainchecker']['alreadyincarttitle'] = "Already In Cart";
 $_LANG['domainchecker']['alreadyincartmsg'] = "This domain is already in your shopping cart. Proceed to checkout now to complete your purchase.";
 $_LANG['domainchecker']['alreadyincartcheckoutnow'] = "Checkout Now";
+
 $_LANG['genericerror']['title'] = "Oops, something went wrong!";
 $_LANG['genericerror']['msg'] = "Please try again and if the problem persists, please contact our support team.";
+
 # Licensing Addon
+
 $_LANG['licensingaddon']['mylicenses'] = "My Licenses";
 $_LANG['licensingaddon']['latestdownload'] = "Latest Download";
 $_LANG['licensingaddon']['downloadnow'] = "Download Now";
@@ -1647,12 +1842,17 @@ $_LANG['licensingaddon']['status'] = "License Status";
 $_LANG['licensingaddon']['reissue'] = "Reissue";
 $_LANG['licensingaddon']['reissuestatusmsg'] = "The Valid Domain, IP and Directory will be detected & saved the next time the license is accessed.";
 $_LANG['licensingaddon']['manageLicense'] = "Manage License";
+
 $_LANG['affiliateWithdrawalSummary'] = "You will be able to request a withdrawal as soon as your balance reaches the minimum required amount of :amountForWithdrawal.";
+
 $_LANG['projectManagement']['activeProjects'] = "Your Active Projects";
+
 # cPanel Module
+
 $_LANG['cPanel']['packageDomain'] = "Package/Domain";
 $_LANG['cPanel']['addonsExtras'] = "Addons & Extras";
 $_LANG['cPanel']['purchaseActivate'] = "Purchase & Activate";
+
 $_LANG['cPanel']['usageStats'] = "Usage Statistics";
 $_LANG['cPanel']['diskUsage'] = "Disk Usage";
 $_LANG['cPanel']['bandwidthUsage'] = "Bandwidth Usage";
@@ -1660,6 +1860,7 @@ $_LANG['cPanel']['usageStatsBwLimitNear'] = "You are nearing your bandwidth limi
 $_LANG['cPanel']['usageStatsDiskLimitNear'] = "You are nearing your disk space limit.";
 $_LANG['cPanel']['usageUpgradeNow'] = "Upgrade Now";
 $_LANG['cPanel']['usageLastUpdated'] = "Last Updated";
+
 $_LANG['cPanel']['quickShortcuts'] = "Quick Shortcuts";
 $_LANG['cPanel']['emailAccounts'] = "Email Accounts";
 $_LANG['cPanel']['forwarders'] = "Forwarders";
@@ -1672,35 +1873,49 @@ $_LANG['cPanel']['cronJobs'] = "Cron Jobs";
 $_LANG['cPanel']['mysqlDatabases'] = "MySQL Databases";
 $_LANG['cPanel']['phpMyAdmin'] = "phpMyAdmin";
 $_LANG['cPanel']['awstats'] = "Awstats";
+
 $_LANG['cPanel']['createEmailAccount'] = "Quick Create Email Account";
 $_LANG['cPanel']['usernamePlaceholder'] = "Yourname";
 $_LANG['cPanel']['passwordPlaceholder'] = "Desired Password";
 $_LANG['cPanel']['create'] = "Create";
 $_LANG['cPanel']['emailAccountCreateSuccess'] = "Email account created successfully!";
 $_LANG['cPanel']['emailAccountCreateFailed'] = "Email account creation failed: ";
+
 $_LANG['cPanel']['packageNotActive'] = "This hosting package is currently";
 $_LANG['cPanel']['statusPendingNotice'] = "You cannot begin using this hosting account until it is activated.";
 $_LANG['cPanel']['statusSuspendedNotice'] = "You cannot continue to use or manage this package until it is reactivated.";
+
 $_LANG['cPanel']['billingOverview'] = "Billing Overview";
+
 $_LANG['liveHelp']['chatNow'] = "Chat Now";
+
 $_LANG['quotes'] = "Quotes";
+
 $_LANG['productMustBeActiveForModuleCmds'] = "Product must be active to perform this action";
 $_LANG['domainCannotBeManagedUnlessActive'] = "This domain is not currently active. Domains cannot be managed unless active.";
+
 $_LANG['actionRequiresAtLeastOneDomainSelected'] = 'Please select at least one domain to perform the selected action on.';
+
 $_LANG['clientAreaProductDownloadsAvailable'] = "The following download items are available for your product/service";
 $_LANG['clientAreaProductAddonsAvailable'] = "Addons are available for your product/service. <a href=\"cart.php?gid=addons\">Click here to view &amp; order &raquo;</a>";
 $_LANG['clientAreaSecurityTwoFactorAuthRecommendation'] = "We strongly encourage you to enable Two-Factor Authentication for added security.";
 $_LANG['clientAreaSecurityNoSecurityQuestions'] = "Setting a security question and answer helps protect your account from unauthorized password resets and allows us to verify your identity when requesting account changes.";
 $_LANG['clientAreaSecuritySecurityQuestionOtherError'] = "The security question helps protect your account from unauthorized password resets and allows us to verify your identity when requesting account changes.";
+
 $_LANG['billingAddress'] = "Billing Address";
+
 $_LANG['noPasswordResetWhenLoggedIn'] = "You cannot request a password reset when logged in. Please logout to begin.";
+
 $_LANG['unableToLoadShoppingCart'] = "Unable to load your shopping cart. Please contact support.";
+
 $_LANG['showMenu'] = "Show Menu";
 $_LANG['hideMenu'] = "Hide Menu";
+
 $_LANG['from'] = "From";
 $_LANG['featuredProduct'] = "Most Popular";
 $_LANG['shoppingCartProductPerMonth'] = "<span>:price</span>/:countmo";
 $_LANG['shoppingCartProductPerYear'] = "<span>:price</span>/:countyr";
+
 $_LANG['orderForm']['findNewDomain'] = "Find your new domain name. Enter your name or keywords below to check availability.";
 $_LANG['orderForm']['transferExistingDomain'] = "Transfer your existing domain names to us and save.";
 $_LANG['orderForm']['www'] = "www.";
@@ -1770,6 +1985,7 @@ $_LANG['orderForm']['includedWithPlans'] = "Included With Every Plan";
 $_LANG['orderForm']['whatIsIncluded'] = "What is Included?";
 $_LANG['orderForm']['errorNoProductGroup'] = "Could not load any product groups.";
 $_LANG['orderForm']['errorNoProducts'] = "Product group does not contain any visible products";
+
 $_LANG['cloudSlider']['feature01Title'] = "Maximum Server Uptime";
 $_LANG['cloudSlider']['feature01Description'] = "Server uptime is critical for all businesses - consider it the heart beat of hosting your business. File and databases servers, email and web servers are an indispensable part of most business processes, and downtimes have direct negative effects on productivity, sales, employee and customer satisfaction. That's why ensuring the maximum server uptime is so important to us - we want to make sure your business processes are running healthy so your customers are happy.";
 $_LANG['cloudSlider']['feature01DescriptionTwo'] = "By trusting us with your business needs, we promise you a 99.9% uptime on any services we provide, outside of any standard maintenance we may provide.";
@@ -1780,24 +1996,33 @@ $_LANG['cloudSlider']['feature03Title'] = "Top Tier Security";
 $_LANG['cloudSlider']['feature03Description'] = "Rest easy knowing that we provide 24/7 security monitoring and DDoS protection. You take protecting your customer's data seriously, and so do we. Our security team and safeguards are on the job all day, every day to provide the level of security needed in today's digital age.";
 $_LANG['cloudSlider']['feature03DescriptionTwo'] = "A wide range of security tools are at your disposal, including SSL certificates, firewall configuration, security monitoring services, VPN access, and more.";
 $_LANG['cloudSlider']['selectProductLevel'] = "Select the Perfect Level for You!";
+
 $_LANG['domainChecker.additionalPricingOptions'] = 'Additional Pricing Options For :domain';
+
 $_LANG['orderpaymenttermfree'] = "Free";
+
 $_LANG['cPanel']['usageStatsBwOverLimit'] = "You have exceeded your bandwidth limit.";
 $_LANG['cPanel']['usageStatsDiskOverLimit'] = "You have exceeded your disk space limit.";
 $_LANG['insufficientstockmessage'] = "We are currently low on stock on certain items. The cart quantities have been adjusted accordingly.";
+
 $_LANG['only'] = "Only";
 $_LANG['startingat'] = "Starting at";
+
 $_LANG['yourdomainplaceholder'] = 'example';
 $_LANG['yourtldplaceholder'] = 'com';
+
 $_LANG['subaccountpermsproductsso'] = "Perform Single Sign-On";
+
 $_LANG['sso']['title'] = "Single Sign-On";
 $_LANG['sso']['summary'] = "Third party applications leverage the Single Sign-On functionality to provide direct access to your billing account without you having to re-authenticate.";
 $_LANG['sso']['disablenotice'] = "You may wish to disable this functionality if you provide access to any of your third party applications to users who you do not wish to be able to access your billing account.";
 $_LANG['sso']['enabled'] = "Single Sign-On is currently permitted for your account.";
 $_LANG['sso']['disabled'] = "Single Sign-On is currently disabled for your account.";
 $_LANG['sso']['redirectafterlogin'] = "You will be redirected after login";
+
 $_LANG['oauth']['badTwoFactorAuthModule'] = "Bad Two-Factor Auth Module. Please contact support.";
 $_LANG['oauth']['permAccessNameAndEmail'] = "Access your name and email address";
+
 $_LANG['errorButTryAgain'] = "An error occurred.  Please try again.";
 $_LANG['emailSent'] = 'Email Sent';
 $_LANG['verificationKeyExpired'] = 'This email verification key has expired. Please login to request a new one.';
@@ -1805,6 +2030,7 @@ $_LANG['emailAddressVerified'] = 'Thank you for confirming your email address.';
 $_LANG['emailKeyExpired'] = 'This email verification key has expired. Please request a new one.';
 $_LANG['verifyEmailAddress'] = 'Please check your email and follow the link to verify your email address.';
 $_LANG['resendEmail'] = 'Resend Verification Email';
+
 // Markdown Editor Help
 $_LANG['markdown']['title']= "Markdown Guide";
 $_LANG['markdown']['emphasis']= "Emphasis";
@@ -1840,6 +2066,7 @@ $_LANG['markdown']['displayingCode'] = "Displaying code";
 $_LANG['markdown']['spanningMultipleLines'] = "Or spanning multiple lines...";
 $_LANG['markdown']['saved'] = "saved";
 $_LANG['markdown']['saving'] = "autosaving";
+
 $_LANG['oauth']['authoriseAppToAccess'] = "Authorise :appName<br />to access your account?";
 $_LANG['oauth']['willBeAbleTo'] = "This application will be able to";
 $_LANG['oauth']['authorise'] = "Authorise";
@@ -1852,6 +2079,7 @@ $_LANG['oauth']['redirectDescriptionOne'] = "Redirecting you back to the applica
 $_LANG['oauth']['redirectDescriptionTwo'] = "If your browser doesn't redirect you, please";
 $_LANG['oauth']['redirectDescriptionThree'] = "click here to continue";
 $_LANG['downloadLoginRequiredTagline'] = "Please login to access the requested file download";
+
 $_LANG['orderForm']['year'] = "Year";
 $_LANG['orderForm']['years'] = "Years";
 $_LANG['orderForm']['domainOrKeyword'] = "Enter a domain or keyword";
@@ -1875,6 +2103,7 @@ $_LANG['orderForm']['authCodePlaceholder'] = "Epp Code / Auth Code";
 $_LANG['orderForm']['authCodeTooltip'] = "To initiate a transfer you will need to obtain the authorization code from your current registrar. These can often be referred to as either the epp code or auth code. They act as a password and are unique to the domain name.";
 $_LANG['orderForm']['help'] = "Help";
 $_LANG['orderForm']['required'] = "Required";
+
 $_LANG['orderForm']['checkingAvailability'] = 'Checking availability';
 $_LANG['orderForm']['verifyingTransferEligibility'] = 'Verifying transfer eligibility';
 $_LANG['orderForm']['verifyingDomain'] = 'Verifying your domain selection';
@@ -1888,7 +2117,9 @@ $_LANG['orderForm']['domainInvalid'] = 'Invalid domain name provided';
 $_LANG['orderForm']['domainInvalidCheckEntry'] = 'Please check your entry and try again.';
 $_LANG['orderForm']['domainPriceRegisterLabel'] = 'Continue to register this domain for';
 $_LANG['orderForm']['domainPriceTransferLabel'] = 'Transfer to us and extend by 1 year* for';
+
 $_LANG['change'] = "Ubah";
+
 $_LANG['filemanagement']['nofileuploaded'] = "No file uploaded.";
 $_LANG['filemanagement']['invalidname'] = "Valid filenames contain only alpha-numeric, dot, hyphen and underscore characters.";
 $_LANG['filemanagement']['couldNotSaveFile'] = "Could not save uploaded file.";
@@ -1896,29 +2127,38 @@ $_LANG['filemanagement']['checkPermissions'] = "Please check permissions.";
 $_LANG['filemanagement']['checkAvailableDiskSpace'] = "Please check available disk space.";
 $_LANG['filemanagement']['fileAlreadyExists'] = "File already exists.";
 $_LANG['filemanagement']['noUniqueName'] = "Unable to find a unique filename.";
+
 $_LANG['cartSimpleCaptcha'] = "Mohon masukan kode di bawah";
+
 $_LANG['clientHomePanels']['showingRecent100'] = "Showing the most recent 100 records";
 $_LANG['orderForm']['domainLetterOrNumber'] = "Domains must begin with a letter or a number";
 $_LANG['orderForm']['domainLengthRequirements'] = " and be between <span class=\"min-length\"></span> and <span class=\"max-length\"></span> characters in length";
+
 $_LANG['clientareatransferredaway'] = "Transferred Away";
 $_LANG['clientareacompleted'] = "Completed";
 $_LANG['domainContactUs'] = "Contact Us";
+
 $_LANG['orderForm']['shortPerYear'] = "/:yearsyr";
 $_LANG['orderForm']['shortPerYears'] = "/:yearsyrs";
+
 $_LANG['domainCheckerSalesGroup']['sale'] = "Sale";
 $_LANG['domainCheckerSalesGroup']['hot'] = "Hot";
 $_LANG['domainCheckerSalesGroup']['new'] = "New";
+
 $_LANG['pricing']['browseExtByCategory'] = "Browse extensions by category";
 $_LANG['pricing']['register'] = "New Price";
 $_LANG['pricing']['transfer'] = "Transfer";
 $_LANG['pricing']['renewal'] = "Renewal";
 $_LANG['pricing']['selectExtCategory'] = "Please choose a category from above.";
+
 $_LANG['navStore'] = "Store";
 $_LANG['navBrowseProductsServices'] = "Browse All";
+
 $_LANG['navWebsiteSecurity'] = "Website & Security";
 $_LANG['navMarketConnectService']['symantec'] = "SSL Certificates";
 $_LANG['navMarketConnectService']['weebly'] = "Website Builder";
 $_LANG['navMarketConnectService']['spamexperts'] = "E-mail Services";
+
 $_LANG['store']['emailServices']['title'] = "E-mail Services";
 $_LANG['store']['ssl']['title'] = "SSL Certificates";
 $_LANG['store']['ssl']['dv']['title'] = "Domain Validated SSL";
@@ -1927,33 +2167,45 @@ $_LANG['store']['ssl']['ev']['title'] = "Extended Validation SSL";
 $_LANG['store']['ssl']['wildcard']['title'] = "Wildcard SSL";
 $_LANG['store']['websiteBuilder']['title'] = "Website Builder";
 $_LANG['store']['configure']['configureProduct'] = "Configure Product";
+
 $_LANG['store']['ssl']['dv']['tagline'] = "Secure your website in just a few minutes!";
 $_LANG['store']['ssl']['dv']['descriptionTitle'] = "What is Standard DV SSL?";
 $_LANG['store']['ssl']['dv']['descriptionContent'] = "<p>Domain Validation certificates offer an economical and quick way to implement SSL to your website. Domain Validated certificates verify you own the domain, but do not perform any additional organization level validation.</p><p>Domain Validated certificates are ideal for personal websites, blogs and social media, or any sites that are not transmitting private and confidential information.  A Domain Validated certificate activates the browser padlock and enables the use of https to assure your website visitors and customers that you take their privacy seriously.</p>";
+
 $_LANG['store']['ssl']['ov']['tagline'] = "High assurance SSL shows website visitors your authenticated identity";
 $_LANG['store']['ssl']['ov']['descriptionTitle'] = "What is Organization Validation SSL?";
 $_LANG['store']['ssl']['ov']['descriptionContent'] = "<p>Organization Validated SSL Certificates provide instant identity confirmation and strong SSL protection for your website and business.</p><p>OV SSL is an organization validated certificate that gives your website a step up in credibility over domain validated SSL Certificates. It activates the browser padlock and https, shows your corporate identity, and assures your customers that you take security very seriously. Site visitors can verify that the website is operated by a legitimate company and is not an imposter site.</p>";
+
 $_LANG['store']['ssl']['ev']['tagline'] = "Activate the green address bar for the highest trust and conversions";
 $_LANG['store']['ssl']['ev']['descriptionTitle'] = "What is Extended Validation SSL?";
 $_LANG['store']['ssl']['ev']['descriptionContent'] = "<p>EV SSL is an Extended Validation Certificate, the highest class of SSL available today and gives more credibility and trust to your website compared to using an organization or domain validated SSL Certificate.</p><p>Extended Validation SSL activates the green address bar and displays your company or organization name in the browser address bar. These prominent visual security indicators let visitors know that extra steps were taken to confirm the site they're visiting, increasing user trust in your website and its credibility – this is why most large companies and organizations choose EV certificates.</p>";
+
 $_LANG['store']['ssl']['wildcard']['tagline'] = "Secure unlimited subdomains on a single certificate.";
 $_LANG['store']['ssl']['wildcard']['descriptionTitle'] = "What is a Wildcard SSL Certificate?";
 $_LANG['store']['ssl']['wildcard']['descriptionContent'] = "<p>Wildcard SSL allows you to secure an unlimited number of subdomains on a single certificate. It’s a great solution for anyone who hosts or manages multiple sites or pages that exist on the same domain. The one-time cost of the certificate covers you for additional subdomains you may add in the future.</p><p>Unlike a standard SSL Certificate that is issued to a single Fully Qualified Domain Name only, e.g. www.yourdomain.com, which means it can only be used to secure the exact domain to which it has been issued, a Wildcard SSL Certificate is issued to *.yourdomain.com, where the asterisk represents all possible subdomains.</p><p>Wildcard SSL is an option available for DV and OV SSL Certificates.</p>";
+
 $_LANG['store']['websiteBuilder']['headline'] = "Building a Website Has Never Been Easier";
 $_LANG['store']['websiteBuilder']['tagline'] = "Create the perfect site with powerful drag and drop tools";
 $_LANG['store']['websiteBuilder']['introduction'] = "Weebly’s drag and drop website builder makes it easy to create a powerful, professional website without any technical skills. Over 40 million entrepreneurs and small businesses have already used Weebly to build their online presence with a website, blog or store.";
+
 $_LANG['store']['emailServices']['headline'] = "Email Security, Built for You";
 $_LANG['store']['emailServices']['tagline'] = "Take back control of your inbox";
 $_LANG['store']['emailServices']['blockSpamHeadline'] = "Block nearly 100% of viruses, malware and spam before they ever reach your inbox";
+
 $_LANG['navManageSsl'] = "Manage SSL Certificates";
+
 $_LANG['invoicesPaymentPending'] = "Payment Pending";
+
 $_LANG['ssl']['changeApproverEmail'] = "Change Approver Email";
 $_LANG['ssl']['reissueCertificate'] = "Reissue Certificate";
 $_LANG['ssl']['retrieveCertificate'] = "Retrieve Certificate";
+
 $_LANG['upgradeCredit'] = "Upgrade Credit";
 $_LANG['upgradeCreditDescription'] = "Calculation based on :daysRemaining unused days of :totalDays totals days in the current billing cycle.";
+
 $_LANG['orderForm']['domainExtensionTransferNotSupported'] = "Your domain is not supported for transfer to us at this time. Please try another domain.";
 $_LANG['orderForm']['domainExtensionTransferPricingNotConfigured'] = "Your domain is not eligible for transfer to us. Please try another domain.";
+
 $_LANG['remoteAuthn']['success'] = 'Success!';
 $_LANG['remoteAuthn']['errorExclamation'] = 'Error!';
 $_LANG['remoteAuthn']['error'] = 'Error';
@@ -1985,23 +2237,31 @@ $_LANG['remoteAuthn']['noLinkedAccounts'] = 'No linked accounts found';
 $_LANG['remoteAuthn']['signInWith'] = 'Sign in with :provider';
 $_LANG['remoteAuthn']['connectWith'] = 'Connect with :provider';
 $_LANG['remoteAuthn']['signUpWith'] = 'Sign Up with :provider';
+
 $_LANG['unlink'] = "Unlink";
+
 $_LANG['invoicePaymentSuccessAwaitingNotify'] = "Thank you for completing the payment process. We are awaiting notification to confirm the payment you just made. We will send you an email confirmation as soon as this has been received.";
+
 $_LANG['errorPage']['404']['title'] = "Oops!";
 $_LANG['errorPage']['404']['subtitle'] = "We couldn't find that page";
 $_LANG['errorPage']['404']['description'] = "Please try navigating using the options below.";
 $_LANG['errorPage']['404']['home'] = "Homepage";
 $_LANG['errorPage']['404']['submitTicket'] = "Contact Support";
+
 $_LANG['creditCard']['removeDescription'] = "Are you sure you wish to remove your credit card details?";
+
 $_LANG['marketConnect']['weebly']['ftpHost'] = "FTP Host";
 $_LANG['marketConnect']['weebly']['ftpUsername'] = "FTP Username";
 $_LANG['marketConnect']['weebly']['ftpPassword'] = "FTP Password";
 $_LANG['marketConnect']['weebly']['ftpPath'] = "FTP Path";
 $_LANG['marketConnect']['weebly']['updateFtp'] = "Update FTP Credentials";
 $_LANG['marketConnect']['weebly']['manage'] = "Login to Weebly";
+
 $_LANG['domainChecker']['contactSupport'] = "Contact Support to Purchase";
+
 $_LANG['cart']['availableCreditBalance'] = "Your available credit balance is :amount.";
 $_LANG['cart']['applyCreditAmount'] = "Apply <span>:amount</span> from my credit balance to this order and I will pay the remaining amount via the payment method selected below.";
 $_LANG['cart']['applyCreditAmountNoFurtherPayment'] = "Apply <span>:amount</span> from my credit balance to this order. No further payment will be due.";
 $_LANG['cart']['applyCreditSkip'] = "Do not apply any credit from my credit balance to this order. I will pay for it using the payment method selected below.";
+
 ////////// End of english language file.  Do not place any translation strings below this line!
