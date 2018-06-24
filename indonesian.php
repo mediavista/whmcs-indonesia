@@ -63,7 +63,6 @@ $_LANG['affiliateswithdrawalrequestsuccessful'] = "Permintaan pencairan anda sud
 $_LANG['affiliateswithdrawn'] = "Total jumlah yang ditarik";
 $_LANG['all'] = "SEMUA";
 $_LANG['alreadyregistered'] = "Sudah Terdaftar?";
-
 $_LANG['announcementsdescription'] = "Lihat berita & pengumuman";
 $_LANG['announcementsnone'] = "Tidak ada Pengumuman untuk Ditampilkan";
 $_LANG['announcementsrss'] = "Lihat RSS Feed";
@@ -593,8 +592,7 @@ $_LANG['ordererrortransfersecret'] = "You must enter the transfer secret";
 $_LANG['ordererroruserexists'] = "Sesorang sudah ada dengan alamat email";
 $_LANG['orderexistinguser'] = "Saya sudah menjadi member dan ingin menambahkan pesanan ini ke akun saya";
 $_LANG['orderfailed'] = "Pemesanan Gagal";
-$_LANG['orderfinalinstructions'] = "
-Jika Anda memiliki pertanyaan tentang pesanan Anda, silahkan buka tiket dukungan dari member area dan mengutip nomor pesanan Anda.";
+$_LANG['orderfinalinstructions'] = "Jika Anda memiliki pertanyaan tentang pesanan Anda, silahkan buka tiket bantuan dari member area dan mengutip nomor pesanan Anda.";
 $_LANG['orderfree'] = "GRATIS!";
 $_LANG['orderfreedomainappliesto'] = "berlaku untuk ekstensi berikut";
 $_LANG['orderfreedomaindescription'] = "pada pembayaran yang dipilih";
