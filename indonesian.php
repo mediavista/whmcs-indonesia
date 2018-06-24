@@ -1699,6 +1699,7 @@ $_LANG['domainsCancelled'] = "Cancelled";
 $_LANG['domainsFraud'] = "Fraud";
 $_LANG['domainsPending'] = "Pending";
 $_LANG['domainsPendingTransfer'] = "Pending Transfer";
+$_LANG['domainsTransferredAway'] = "Transferred Away";
 $_LANG['domainsExpiringInTheNext30Days'] = "Expiring within 30 Days";
 $_LANG['domainsExpiringInTheNext90Days'] = "Expiring within 90 Days";
 $_LANG['domainsExpiringInTheNext180Days'] = "Expiring within 180 Days";
@@ -2118,6 +2119,14 @@ $_LANG['orderForm']['domainPriceRegisterLabel'] = 'Continue to register this dom
 $_LANG['orderForm']['domainPriceTransferLabel'] = 'Transfer to us and extend by 1 year* for';
 
 $_LANG['change'] = "Ubah";
+
+$_LANG['filemanagement']['nofileuploaded'] = "No file uploaded.";
+$_LANG['filemanagement']['invalidname'] = "Valid filenames contain only alpha-numeric, dot, hyphen and underscore characters.";
+$_LANG['filemanagement']['couldNotSaveFile'] = "Could not save uploaded file.";
+$_LANG['filemanagement']['checkPermissions'] = "Please check permissions.";
+$_LANG['filemanagement']['checkAvailableDiskSpace'] = "Please check available disk space.";
+$_LANG['filemanagement']['fileAlreadyExists'] = "File already exists.";
+$_LANG['filemanagement']['noUniqueName'] = "Unable to find a unique filename.";
 
 $_LANG['cartSimpleCaptcha'] = "Mohon masukan kode di bawah";
 
